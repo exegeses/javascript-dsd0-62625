@@ -14,3 +14,15 @@ function pintarVerde()
     caja.innerText = 'verde';
     caja.style.color = '#000';
 }
+function pintarGris()
+{
+    caja.style.backgroundColor = '#999';
+    caja.innerText = 'gris';
+    caja.style.color = '#000';
+}
+function pintarCeleste()
+{
+    caja.style.backgroundColor = '#45e0fc';
+    caja.innerText = 'celeste';
+    caja.style.color = '#000';
+}
