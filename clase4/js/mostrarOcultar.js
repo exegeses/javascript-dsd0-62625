@@ -12,4 +12,11 @@ function mostrar()
     caja.style.borderColor = '#0a2';
 }
 
-
+function interruptor()
+{
+    if( caja.style.display == 'block' ){
+        ocultar();
+    }else{
+        mostrar();
+    }
+}

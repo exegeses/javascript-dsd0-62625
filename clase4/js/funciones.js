@@ -26,3 +26,10 @@ function pintarCeleste()
     caja.innerText = 'celeste';
     caja.style.color = '#000';
 }
+
+function pintar( colorFondo, nombre )
+{
+    caja.style.backgroundColor = colorFondo;
+    caja.innerText = nombre;
+    caja.style.color = '#000';
+}
