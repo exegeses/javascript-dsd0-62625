@@ -1,0 +1,15 @@
+body{
+    font-family: Raleway;
+    background-color: #211E1D; /* #262442 #444242 */
+    color: rgb(245, 140, 95);
+    font-size: 2em;
+}
+#switcher figure{
+    width: 80px;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 8px 4px 0px 8px;
+}
+#switcher img{
+    
+}

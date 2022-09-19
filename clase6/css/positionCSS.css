@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(255, 248, 243);
+    height: 700px;
+    margin-top: 200px;
+    position: relative;
+}
+
+#verde, #naranja, #rojo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#verde{
+    background-color: rgb(164, 244, 148);
+    top: 50px;
+    left: 50px;
+}
+#naranja{
+    background-color: rgb(244, 217, 148);
+}
+#rojo{
+    background-color: rgb(244, 158, 148);
+    top: -50px;
+    left: -50px;
+}
