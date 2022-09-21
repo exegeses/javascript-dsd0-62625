@@ -32,3 +32,20 @@ main{
         padding: 0px;
         font-size: 1.2em;
     }
+    .boton{
+        font-weight: 600;
+        background-color: chocolate;
+        padding: 12px 32px;
+        border-radius: 24px;
+        color: gold;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .boton:hover {
+        background-color: #ea7f31;
+    }
+    #dado{
+        display: block;
+        margin-top: 24px;
+        width: 256px;
+    }
