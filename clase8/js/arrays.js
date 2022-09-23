@@ -14,7 +14,6 @@ txt.innerText = marcas[1];
 
 /* fecha  */
 let fecha = new Date();
-
 //obtenemos día de la semana
 let diaSemana = fecha.getDay();
 
@@ -23,3 +22,5 @@ const semana = [
                     'Miércoles', 'Jueves', 'Viernes',
                     'Sábado'
                 ];
+const txt2 = document.querySelector('#txt2');
+txt2.innerText = semana[ diaSemana ];

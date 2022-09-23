@@ -49,3 +49,17 @@ main{
         margin-top: 24px;
         width: 256px;
     }
+
+ul{
+    margin-left: 64px;
+}
+    ul li{
+        cursor: pointer;
+        list-style-image: url(../imgs/ice-cream.png);
+        transition: .3s;
+    }
+    ul li:hover{
+        background-color: rgb(200, 249, 245);
+        margin: 4px 0px;
+        font-size: 36px;
+    }
