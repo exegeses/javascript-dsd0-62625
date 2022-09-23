@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Nunito;
+    font-weight: 300;
+    font-size: 2em;
+}
+header{
+    display: flex;
+    justify-content: end;
+    padding: 32px;
+}
+#switcher figure{
+    width: 92px;
+    height: 40px;
+    border-radius: 24px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+main{
+    width: 600px;
+    margin: auto;
+}
+    pre{
+        margin: 32px 0px;
+        padding: 0px;
+        font-size: 1.2em;
+    }
+    .boton{
+        font-weight: 600;
+        background-color: chocolate;
+        padding: 12px 32px;
+        border-radius: 24px;
+        color: gold;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .boton:hover {
+        background-color: #ea7f31;
+    }
+    #dado{
+        display: block;
+        margin-top: 24px;
+        width: 256px;
+    }
